@@ -3,6 +3,7 @@
 ###### Machine Learning integrated with devops.</br>
 
 ###### Task Description:</br>
+
 JOB#1 If Developer push to dev branch then Jenkins will fetch from dev and deploy on dev-docker environment.</br>
 
 JOB#2 If Developer push to master branch then Jenkins will fetch from master and deploy on master-docker environment. both dev-docker and master-docker environment are on different docker containers.
@@ -85,7 +86,7 @@ sudo  cp -vrf * /root/mastergit
 if 
 sudo docker ps | grep mastergit
 then
-echo ""Mastergit is Already Running"
+echo "Mastergit is Already Running"
 else
 sudo docker run -dit -p 8082:80 -v /root/mastergit:/usr/local/apache2/htdocs/ --name mastergit httpd
 fi
