@@ -9,6 +9,10 @@ JOB#1 If Developer push to dev branch then Jenkins will fetch from dev and deplo
 JOB#2 If Developer push to master branch then Jenkins will fetch from master and deploy on master-docker environment. both dev-docker and master-docker environment are on different docker containers.
 
 JOB#3 Manually the QA team will check (test) for the website running in dev-docker environment. If it is running fine then Jenkins will merge the dev branch to master branch and trigger #job2
+
+Technologies used:
+
+Git, github, redhat enterprise linux 8(rhel-8), docker, jenkins etc.
 ________________________________________________________________________________________
 
 HERE WE START THE TASK.....(●'◡'●)
@@ -129,6 +133,6 @@ opening it up we see the message/code written there!
 
 Well that was all in the task!
 Thanks!
-
+(❁´◡`❁)
 
 
